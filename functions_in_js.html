@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>JavaScript </title>
+
+
+</head>
+
+<body>
+<p id="example1"></p>
+<p id="example2"></p>
+<p id="example3"></p>
+<p id="example4"></p>
+<p id="example5"></p>
+
+	<script type="text/javascript">
+	 	
+	 function student_information()
+	 {
+	 	var name="aisha hasin"; //string datatype
+	 	var age= 14; //integar datatype
+	 	var grade= 7;
+	 	document.getElementById("example1").innerHTML=name;
+	 	document.getElementById("example2").innerHTML=age;
+	 	document.getElementById("example3").innerHTML=grade;
+	 }
+	 student_information();
+
+	 function add(num1, num2, num3, num4)
+     {
+     	var sum;
+        sum=num1+num2+num3+num4;
+        return sum;
+     }
+     var result=add(34, 12, 76, 8);
+     document.getElementById("example4").innerHTML=result;
+
+     function multiplication(x, y)
+     {
+     	var equation;
+     	equation=2*x+3*y;
+     	return equation;
+     }
+     var equation_result=multiplication(45, 78);
+     document.getElementById("example5").innerHTML=equation_result;
+	</script>
+
+</body>
+
+</html>
